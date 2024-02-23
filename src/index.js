@@ -1,14 +1,11 @@
 import SlimSelect from 'slim-select';
-
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
-
 import { fetchBreeds, fetchCatByBreed } from './cat-api';
 
 const selectItem = document.querySelector('select');
 const catInfo = document.querySelector('.cat-info');
 const pLoading = document.querySelector('.loader');
 const pError = document.querySelector('.error');
-
 const catImage = document.createElement('img');
 const catDesc = document.createElement('div');
 const catBreed = document.createElement('div');
