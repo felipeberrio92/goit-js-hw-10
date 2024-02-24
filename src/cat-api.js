@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 axios.defaults.headers.common['x-api-key'] =
-  'live_0wIhaeoDJAEGu9P7tzckt9shsFx4HUWYgg7HsaACP284dQCz1boSPmpHnPivarpO';
+  'live_5rn1pWVbmmvedSDfbp5jRPCStEEjPjkUk0kaBngdGCBfBzNOMC2DHzVT3HYhIZ3X';
 
 const BASE_URL = `https://api.thecatapi.com/v1/`;
 
